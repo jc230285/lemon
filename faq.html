@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - Lemon Squeezy Events</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Progress Indicator -->
+    <div class="progress-bar" id="progressBar"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">
+                    <i class="fas fa-lemon"></i>
+                    <span>Lemon Squeezy Events</span>
+                </a>
+            </div>
+
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">
+                        <i class="fas fa-home"></i>
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">
+                        <i class="fas fa-user"></i>
+                        <span>About</span>
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle">
+                        <i class="fas fa-users"></i>
+                        <span>Services</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="index.html#team-building">Team Building</a></li>
+                        <li><a href="index.html#corporate-events">Corporate Events</a></li>
+                        <li><a href="index.html#workshops">Workshops</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#how-it-works" class="nav-link">
+                        <i class="fas fa-cogs"></i>
+                        <span>How It Works</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="blog.html" class="nav-link">
+                        <i class="fas fa-blog"></i>
+                        <span>Blog</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="faq.html" class="nav-link active">
+                        <i class="fas fa-question-circle"></i>
+                        <span>FAQ</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link cta-button">
+                        <i class="fas fa-envelope"></i>
+                        <span>Contact</span>
+                    </a>
+                </li>
+            </ul>
+
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+        <ol class="breadcrumb-list">
+            <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+            <li aria-current="page">FAQ</li>
+        </ol>
+    </nav>
+
+    <!-- Skip to Content -->
+    <a href="#main-content" class="skip-to-content">Skip to main content</a>
+
+    <!-- Hero Section -->
+    <section class="hero" id="main-content">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Frequently Asked Questions</h1>
+                <p class="hero-subtitle">Everything you need to know about our team building services</p>
+            </div>
+            <div class="hero-image">
+                <div class="placeholder-image">
+                    <i class="fas fa-question-circle"></i>
+                    <p>FAQ Image</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Search -->
+    <section class="faq-search">
+        <div class="container">
+            <div class="search-box">
+                <input type="text" id="faqSearch" placeholder="Search for answers..." aria-label="Search FAQ">
+                <i class="fas fa-search"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Categories -->
+    <section class="faq-categories">
+        <div class="container">
+            <div class="category-tabs">
+                <button class="tab-button active" data-category="all">All Questions</button>
+                <button class="tab-button" data-category="booking">Booking & Planning</button>
+                <button class="tab-button" data-category="events">Events & Activities</button>
+                <button class="tab-button" data-category="pricing">Pricing & Packages</button>
+                <button class="tab-button" data-category="logistics">Logistics</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Content -->
+    <section class="faq-content">
+        <div class="container">
+            <div class="faq-grid">
+                <!-- Booking & Planning -->
+                <div class="faq-item" data-category="booking">
+                    <div class="faq-question">
+                        <h3>How far in advance should we book?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>While we can accommodate last-minute requests, we recommend booking at least 4-6 weeks in advance. This ensures:</p>
+                        <ul>
+                            <li>Better venue availability</li>
+                            <li>More customization options</li>
+                            <li>Proper planning for your team's specific needs</li>
+                            <li>Better pricing options</li>
+                        </ul>
+                        <p>For larger teams (50+ people) or complex events, we suggest booking 2-3 months ahead.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-category="booking">
+                    <div class="faq-question">
+                        <h3>What's included in the discovery call?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Our discovery call is a comprehensive 30-45 minute conversation where we:</p>
+                        <ul>
+                            <li>Learn about your team's current challenges and dynamics</li>
+                            <li>Understand your goals and desired outcomes</li>
+                            <li>Discuss your preferred activities and any concerns</li>
+                            <li>Review your budget and timeline</li>
+                            <li>Answer any questions you have about our services</li>
+                        </ul>
+                        <p>After the call, we'll send you a customized proposal within 5 business days.</p>
+                    </div>
+                </div>
+
+                <!-- Events & Activities -->
+                <div class="faq-item" data-category="events">
+                    <div class="faq-question">
+                        <h3>What types of activities do you offer?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We offer a wide range of activities tailored to different team needs:</p>
+                        <ul>
+                            <li><strong>Problem-solving challenges:</strong> Escape rooms, puzzle games, strategy sessions</li>
+                            <li><strong>Creative workshops:</strong> Art projects, cooking classes, music activities</li>
+                            <li><strong>Outdoor adventures:</strong> Treasure hunts, sports activities, nature challenges</li>
+                            <li><strong>Communication exercises:</strong> Role-playing, storytelling, presentation games</li>
+                            <li><strong>Virtual experiences:</strong> Online games, digital workshops, remote team challenges</li>
+                        </ul>
+                        <p>Every activity is designed with specific learning objectives and team building goals in mind.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-category="events">
+                    <div class="faq-question">
+                        <h3>Do you provide virtual team building?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolutely! We offer engaging virtual team building experiences that are just as effective as in-person events. Our virtual offerings include:</p>
+                        <ul>
+                            <li>Interactive online workshops and games</li>
+                            <li>Virtual escape rooms and puzzle challenges</li>
+                            <li>Online cooking or creative classes</li>
+                            <li>Digital team challenges and competitions</li>
+                            <li>Hybrid events combining in-person and virtual participants</li>
+                        </ul>
+                        <p>All virtual events use user-friendly platforms and include technical support to ensure everyone can participate fully.</p>
+                    </div>
+                </div>
+
+                <!-- Pricing & Packages -->
+                <div class="faq-item" data-category="pricing">
+                    <div class="faq-question">
+                        <h3>How much do your services cost?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Our pricing varies based on several factors:</p>
+                        <ul>
+                            <li>Team size and number of participants</li>
+                            <li>Duration and complexity of activities</li>
+                            <li>Venue requirements and location</li>
+                            <li>Level of customization needed</li>
+                        </ul>
+                        <p>Typical ranges:</p>
+                        <ul>
+                            <li><strong>Small teams (5-15 people):</strong> £500 - £2,000</li>
+                            <li><strong>Medium teams (16-50 people):</strong> £1,500 - £5,000</li>
+                            <li><strong>Large teams (50+ people):</strong> £3,000 - £10,000+</li>
+                        </ul>
+                        <p>We provide detailed, transparent pricing in our proposals with no hidden costs.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-category="pricing">
+                    <div class="faq-question">
+                        <h3>What's included in the price?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Our comprehensive service includes:</p>
+                        <ul>
+                            <li>Initial consultation and custom event design</li>
+                            <li>Professional facilitation throughout the event</li>
+                            <li>All materials, equipment, and supplies needed</li>
+                            <li>Pre-event team assessment (when applicable)</li>
+                            <li>Post-event feedback session and report</li>
+                            <li>Follow-up recommendations for continued team development</li>
+                        </ul>
+                        <p>Additional costs may include venue hire, catering, and travel expenses for events outside our local area.</p>
+                    </div>
+                </div>
+
+                <!-- Logistics -->
+                <div class="faq-item" data-category="logistics">
+                    <div class="faq-question">
+                        <h3>Where do you hold events?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We're flexible with locations and can accommodate your preferences:</p>
+                        <ul>
+                            <li><strong>Your office:</strong> Perfect for teams who prefer familiar surroundings</li>
+                            <li><strong>External venues:</strong> Hotels, conference centers, activity centers</li>
+                            <li><strong>Outdoor locations:</strong> Parks, adventure centers, team retreat venues</li>
+                            <li><strong>Virtual platforms:</strong> Zoom, Teams, or other preferred platforms</li>
+                            <li><strong>Hybrid setups:</strong> Combining in-person and virtual participants</li>
+                        </ul>
+                        <p>We can help you find and book the perfect venue for your event.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-category="logistics">
+                    <div class="faq-question">
+                        <h3>How long do events typically last?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Event duration depends on your goals and available time:</p>
+                        <ul>
+                            <li><strong>Quick team sessions:</strong> 2-3 hours</li>
+                            <li><strong>Half-day events:</strong> 3-4 hours</li>
+                            <li><strong>Full-day experiences:</strong> 6-8 hours</li>
+                            <li><strong>Multi-day retreats:</strong> 1-3 days</li>
+                        </ul>
+                        <p>We can work within your schedule constraints and recommend the optimal duration for your specific objectives.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-category="logistics">
+                    <div class="faq-question">
+                        <h3>What if someone can't participate in physical activities?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Inclusivity is central to our approach. We ensure everyone can participate by:</p>
+                        <ul>
+                            <li>Conducting accessibility assessments before events</li>
+                            <li>Offering alternative roles and activities for different abilities</li>
+                            <li>Adapting physical challenges to be inclusive</li>
+                            <li>Focusing on mental and strategic challenges when needed</li>
+                            <li>Providing supportive roles like coaching, strategy, or judging</li>
+                        </ul>
+                        <p>Please let us know about any accessibility needs during the booking process so we can plan accordingly.</p>
+                    </div>
+                </div>
+
+                <!-- General -->
+                <div class="faq-item" data-category="all">
+                    <div class="faq-question">
+                        <h3>What makes your approach different?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Our approach focuses on sustainable team improvement rather than temporary fun:</p>
+                        <ul>
+                            <li><strong>Tailored design:</strong> Every event is custom-built for your team's specific needs</li>
+                            <li><strong>Real outcomes:</strong> Activities are designed with clear learning objectives</li>
+                            <li><strong>Professional facilitation:</strong> Experienced guidance throughout the process</li>
+                            <li><strong>Follow-up support:</strong> Recommendations for continued team development</li>
+                            <li><strong>No cheesy gimmicks:</strong> Authentic experiences that teams actually enjoy</li>
+                        </ul>
+                        <p>We measure success by the lasting positive changes in team dynamics and performance.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-category="all">
+                    <div class="faq-question">
+                        <h3>Can you work with remote or hybrid teams?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes! We specialize in bringing remote and hybrid teams together through:</p>
+                        <ul>
+                            <li>Fully virtual team building experiences</li>
+                            <li>Hybrid events where some participate in-person and others virtually</li>
+                            <li>Asynchronous team challenges that span different time zones</li>
+                            <li>Digital collaboration workshops</li>
+                            <li>Virtual social events and celebrations</li>
+                        </ul>
+                        <p>We understand the unique challenges of remote work and design experiences that create genuine connection across distances.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Still Have Questions -->
+    <section class="more-questions">
+        <div class="container">
+            <h2>Still Have Questions?</h2>
+            <p>Can't find what you're looking for? We're here to help!</p>
+            <div class="contact-options">
+                <a href="contact.html" class="btn btn-primary">Book a Discovery Call</a>
+                <a href="mailto:sophie@lemonsqueezyevents.com" class="btn btn-outline">
+                    <i class="fas fa-envelope"></i>
+                    Email Us
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><a href="mailto:sophie@lemonsqueezyevents.com">sophie@lemonsqueezyevents.com</a></p>
+                    <p><a href="tel:07341669631">07341669631</a></p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="https://x.com/Squeezy_Events" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/lemonsqueezy.events/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=61567933287910" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/company/lemon-squeezy-events" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 by Lemon Squeezy Events. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="js/navigation.js"></script>
+    <script src="js/faq.js"></script>
+
+    <style>
+        .faq-search {
+            padding: 40px 0;
+            background: #f8f9fa;
+        }
+
+        .search-box {
+            position: relative;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .search-box input {
+            width: 100%;
+            padding: 15px 50px 15px 20px;
+            border: 2px solid var(--border-color);
+            border-radius: 25px;
+            font-size: 1rem;
+            transition: var(--transition);
+        }
+
+        .search-box input:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 3px rgba(244, 208, 63, 0.1);
+        }
+
+        .search-box i {
+            position: absolute;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text-light);
+        }
+
+        .faq-categories {
+            padding: 20px 0;
+            background: white;
+            border-bottom: 1px solid var(--border-color);
+            position: sticky;
+            top: 70px;
+            z-index: 99;
+        }
+
+        .category-tabs {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .tab-button {
+            background: transparent;
+            border: 2px solid var(--border-color);
+            padding: 10px 20px;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: var(--transition);
+            font-weight: 500;
+            color: var(--text-color);
+        }
+
+        .tab-button:hover,
+        .tab-button.active {
+            background: var(--primary-color);
+            border-color: var(--primary-color);
+            color: var(--dark-color);
+        }
+
+        .faq-content {
+            padding: 60px 0;
+            background: white;
+        }
+
+        .faq-grid {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .faq-item {
+            margin-bottom: 20px;
+            border: 1px solid var(--border-color);
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            transition: var(--transition);
+        }
+
+        .faq-item:hover {
+            border-color: var(--primary-color);
+        }
+
+        .faq-item.hidden {
+            display: none;
+        }
+
+        .faq-question {
+            padding: 25px;
+            background: white;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: var(--transition);
+        }
+
+        .faq-question:hover {
+            background: #f8f9fa;
+        }
+
+        .faq-question h3 {
+            margin: 0;
+            color: var(--dark-color);
+            font-size: 1.2rem;
+        }
+
+        .faq-question i {
+            color: var(--primary-color);
+            font-size: 1.2rem;
+            transition: transform 0.3s ease;
+        }
+
+        .faq-item.active .faq-question i {
+            transform: rotate(45deg);
+        }
+
+        .faq-answer {
+            padding: 0 25px;
+            background: #f8f9fa;
+            max-height: 0;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .faq-item.active .faq-answer {
+            padding: 25px;
+            max-height: 1000px;
+        }
+
+        .faq-answer p {
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+
+        .faq-answer ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        .faq-answer li {
+            margin-bottom: 8px;
+            line-height: 1.6;
+        }
+
+        .more-questions {
+            padding: 80px 0;
+            background: var(--dark-color);
+            color: white;
+            text-align: center;
+        }
+
+        .more-questions h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .more-questions p {
+            font-size: 1.2rem;
+            margin-bottom: 40px;
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        .contact-options {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        @media (max-width: 768px) {
+            .category-tabs {
+                justify-content: flex-start;
+                overflow-x: auto;
+                padding-bottom: 10px;
+            }
+
+            .tab-button {
+                white-space: nowrap;
+                flex-shrink: 0;
+            }
+
+            .faq-question {
+                padding: 20px 15px;
+            }
+
+            .faq-answer {
+                padding: 0 15px;
+            }
+
+            .faq-item.active .faq-answer {
+                padding: 20px 15px;
+            }
+
+            .contact-options {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</body>
+</html>

@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Lemon Squeezy Events</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Progress Indicator -->
+    <div class="progress-bar" id="progressBar"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">
+                    <i class="fas fa-lemon"></i>
+                    <span>Lemon Squeezy Events</span>
+                </a>
+            </div>
+
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">
+                        <i class="fas fa-home"></i>
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">
+                        <i class="fas fa-user"></i>
+                        <span>About</span>
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle">
+                        <i class="fas fa-users"></i>
+                        <span>Services</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="index.html#team-building">Team Building</a></li>
+                        <li><a href="index.html#corporate-events">Corporate Events</a></li>
+                        <li><a href="index.html#workshops">Workshops</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#how-it-works" class="nav-link">
+                        <i class="fas fa-cogs"></i>
+                        <span>How It Works</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="blog.html" class="nav-link active">
+                        <i class="fas fa-blog"></i>
+                        <span>Blog</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="faq.html" class="nav-link">
+                        <i class="fas fa-question-circle"></i>
+                        <span>FAQ</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link cta-button">
+                        <i class="fas fa-envelope"></i>
+                        <span>Contact</span>
+                    </a>
+                </li>
+            </ul>
+
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+        <ol class="breadcrumb-list">
+            <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+            <li aria-current="page">Blog</li>
+        </ol>
+    </nav>
+
+    <!-- Skip to Content -->
+    <a href="#main-content" class="skip-to-content">Skip to main content</a>
+
+    <!-- Hero Section -->
+    <section class="hero" id="main-content">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Team Building Insights</h1>
+                <p class="hero-subtitle">Tips, strategies, and insights for building stronger, more connected teams</p>
+            </div>
+            <div class="hero-image">
+                <div class="placeholder-image">
+                    <i class="fas fa-blog"></i>
+                    <p>Blog Image</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Content -->
+    <section class="blog-content">
+        <div class="container">
+            <div class="blog-grid">
+                <!-- Featured Article -->
+                <article class="blog-post featured">
+                    <div class="post-image">
+                        <div class="placeholder-image">
+                            <i class="fas fa-users"></i>
+                            <p>Featured Article Image</p>
+                        </div>
+                        <span class="post-category">Team Building</span>
+                    </div>
+                    <div class="post-content">
+                        <h2><a href="#article1">5 Signs Your Team Needs a Team Building Intervention</a></h2>
+                        <div class="post-meta">
+                            <span class="post-date"><i class="fas fa-calendar-alt"></i> November 7, 2024</span>
+                            <span class="post-author"><i class="fas fa-user"></i> Sophie</span>
+                            <span class="read-time"><i class="fas fa-clock"></i> 5 min read</span>
+                        </div>
+                        <p>Is your team struggling with communication, motivation, or collaboration? Here are the key warning signs that indicate it's time for a team building intervention, and how to address them effectively.</p>
+                        <a href="#article1" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Regular Articles -->
+                <article class="blog-post">
+                    <div class="post-image">
+                        <div class="placeholder-image">
+                            <i class="fas fa-lightbulb"></i>
+                            <p>Article Image</p>
+                        </div>
+                        <span class="post-category">Leadership</span>
+                    </div>
+                    <div class="post-content">
+                        <h3><a href="#article2">How to Lead Team Building Activities That Actually Work</a></h3>
+                        <div class="post-meta">
+                            <span class="post-date"><i class="fas fa-calendar-alt"></i> November 1, 2024</span>
+                            <span class="read-time"><i class="fas fa-clock"></i> 7 min read</span>
+                        </div>
+                        <p>Moving beyond trust falls and icebreakers - discover how to design team building activities that create lasting positive change in your workplace culture.</p>
+                        <a href="#article2" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="blog-post">
+                    <div class="post-image">
+                        <div class="placeholder-image">
+                            <i class="fas fa-laptop"></i>
+                            <p>Article Image</p>
+                        </div>
+                        <span class="post-category">Remote Work</span>
+                    </div>
+                    <div class="post-content">
+                        <h3><a href="#article3">Virtual Team Building: Making Remote Teams Feel Connected</a></h3>
+                        <div class="post-meta">
+                            <span class="post-date"><i class="fas fa-calendar-alt"></i> October 25, 2024</span>
+                            <span class="read-time"><i class="fas fa-clock"></i> 6 min read</span>
+                        </div>
+                        <p>Remote work doesn't mean disconnected teams. Learn proven strategies for building strong relationships and collaboration in virtual environments.</p>
+                        <a href="#article3" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="blog-post">
+                    <div class="post-image">
+                        <div class="placeholder-image">
+                            <i class="fas fa-chart-line"></i>
+                            <p>Article Image</p>
+                        </div>
+                        <span class="post-category">Performance</span>
+                    </div>
+                    <div class="post-content">
+                        <h3><a href="#article4">Measuring the ROI of Team Building: What Really Matters</a></h3>
+                        <div class="post-meta">
+                            <span class="post-date"><i class="fas fa-calendar-alt"></i> October 18, 2024</span>
+                            <span class="read-time"><i class="fas fa-clock"></i> 8 min read</span>
+                        </div>
+                        <p>How do you know if team building is working? Discover the key metrics and indicators that demonstrate real return on investment for team development.</p>
+                        <a href="#article4" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="blog-post">
+                    <div class="post-image">
+                        <div class="placeholder-image">
+                            <i class="fas fa-heart"></i>
+                            <p>Article Image</p>
+                        </div>
+                        <span class="post-category">Culture</span>
+                    </div>
+                    <div class="post-content">
+                        <h3><a href="#article5">Building Psychological Safety in Your Team</a></h3>
+                        <div class="post-meta">
+                            <span class="post-date"><i class="fas fa-calendar-alt"></i> October 10, 2024</span>
+                            <span class="read-time"><i class="fas fa-clock"></i> 9 min read</span>
+                        </div>
+                        <p>Psychological safety is the foundation of high-performing teams. Learn how to create an environment where everyone feels safe to contribute, fail, and grow.</p>
+                        <a href="#article5" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="blog-post">
+                    <div class="post-image">
+                        <div class="placeholder-image">
+                            <i class="fas fa-comments"></i>
+                            <p>Article Image</p>
+                        </div>
+                        <span class="post-category">Communication</span>
+                    </div>
+                    <div class="post-content">
+                        <h3><a href="#article6">The Art of Difficult Conversations in Teams</a></h3>
+                        <div class="post-meta">
+                            <span class="post-date"><i class="fas fa-calendar-alt"></i> October 3, 2024</span>
+                            <span class="read-time"><i class="fas fa-clock"></i> 6 min read</span>
+                        </div>
+                        <p>Avoiding difficult conversations can destroy team dynamics. Here's how to approach challenging discussions with confidence and compassion.</p>
+                        <a href="#article6" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Categories Sidebar -->
+            <aside class="blog-sidebar">
+                <div class="sidebar-widget">
+                    <h3>Categories</h3>
+                    <ul class="category-list">
+                        <li><a href="#" data-category="all">All Posts <span>(12)</span></a></li>
+                        <li><a href="#" data-category="team-building">Team Building <span>(4)</span></a></li>
+                        <li><a href="#" data-category="leadership">Leadership <span>(3)</span></a></li>
+                        <li><a href="#" data-category="remote-work">Remote Work <span>(2)</span></a></li>
+                        <li><a href="#" data-category="performance">Performance <span>(2)</span></a></li>
+                        <li><a href="#" data-category="culture">Culture <span>(1)</span></a></li>
+                    </ul>
+                </div>
+
+                <div class="sidebar-widget">
+                    <h3>Popular Tags</h3>
+                    <div class="tag-cloud">
+                        <span class="tag">Team Building</span>
+                        <span class="tag">Leadership</span>
+                        <span class="tag">Communication</span>
+                        <span class="tag">Remote Work</span>
+                        <span class="tag">Culture</span>
+                        <span class="tag">Performance</span>
+                        <span class="tag">Engagement</span>
+                        <span class="tag">Collaboration</span>
+                    </div>
+                </div>
+
+                <div class="sidebar-widget">
+                    <h3>Newsletter</h3>
+                    <p>Get our latest team building insights delivered to your inbox.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+                </div>
+
+                <div class="sidebar-widget">
+                    <h3>Need Help?</h3>
+                    <p>Ready to transform your team? Let's start with a conversation.</p>
+                    <a href="contact.html" class="btn btn-outline">Book a Discovery Call</a>
+                </div>
+            </aside>
+        </div>
+    </section>
+
+    <!-- Newsletter Signup -->
+    <section class="newsletter-section">
+        <div class="container">
+            <h2>Stay Updated</h2>
+            <p>Get the latest team building tips and insights delivered straight to your inbox</p>
+            <form class="newsletter-form-main">
+                <div class="form-group">
+                    <input type="email" placeholder="Enter your email address" required>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i>
+                        Subscribe
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><a href="mailto:sophie@lemonsqueezyevents.com">sophie@lemonsqueezyevents.com</a></p>
+                    <p><a href="tel:07341669631">07341669631</a></p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="https://x.com/Squeezy_Events" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/lemonsqueezy.events/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=61567933287910" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/company/lemon-squeezy-events" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 by Lemon Squeezy Events. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="js/navigation.js"></script>
+
+    <style>
+        .blog-content {
+            padding: 80px 0;
+            background: white;
+        }
+
+        .blog-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 60px;
+        }
+
+        .blog-post {
+            background: white;
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            margin-bottom: 40px;
+        }
+
+        .blog-post:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .blog-post.featured {
+            grid-column: 1 / -1;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0;
+            margin-bottom: 60px;
+        }
+
+        .blog-post.featured .post-image {
+            height: 300px;
+        }
+
+        .blog-post.featured .post-content {
+            padding: 40px;
+        }
+
+        .blog-post.featured h2 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+        }
+
+        .post-image {
+            position: relative;
+            height: 200px;
+            overflow: hidden;
+        }
+
+        .post-image .placeholder-image {
+            height: 100%;
+            margin: 0;
+            border-radius: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .post-category {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            background: var(--primary-color);
+            color: var(--dark-color);
+            padding: 5px 15px;
+            border-radius: 15px;
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+
+        .post-content {
+            padding: 30px;
+        }
+
+        .post-content h3 {
+            margin-bottom: 15px;
+            line-height: 1.4;
+        }
+
+        .post-content h3 a {
+            color: var(--dark-color);
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        .post-content h3 a:hover {
+            color: var(--accent-color);
+        }
+
+        .post-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-bottom: 15px;
+            color: var(--text-light);
+            font-size: 0.9rem;
+        }
+
+        .post-meta span {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .post-content p {
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .read-more {
+            color: var(--accent-color);
+            text-decoration: none;
+            font-weight: 600;
+            transition: var(--transition);
+        }
+
+        .read-more:hover {
+            color: var(--dark-color);
+        }
+
+        .blog-sidebar {
+            padding-left: 20px;
+        }
+
+        .sidebar-widget {
+            background: #f8f9fa;
+            padding: 30px;
+            border-radius: var(--border-radius);
+            margin-bottom: 30px;
+        }
+
+        .sidebar-widget h3 {
+            margin-bottom: 20px;
+            color: var(--dark-color);
+            font-size: 1.3rem;
+        }
+
+        .category-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .category-list li {
+            margin-bottom: 10px;
+        }
+
+        .category-list a {
+            color: var(--text-color);
+            text-decoration: none;
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 0;
+            border-bottom: 1px solid var(--border-color);
+            transition: var(--transition);
+        }
+
+        .category-list a:hover {
+            color: var(--accent-color);
+            padding-left: 10px;
+        }
+
+        .category-list span {
+            color: var(--text-light);
+            font-size: 0.9rem;
+        }
+
+        .tag-cloud {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .tag {
+            background: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            color: var(--text-color);
+            border: 1px solid var(--border-color);
+            transition: var(--transition);
+            cursor: pointer;
+        }
+
+        .tag:hover {
+            background: var(--primary-color);
+            color: var(--dark-color);
+            border-color: var(--primary-color);
+        }
+
+        .newsletter-form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .newsletter-form input {
+            padding: 12px;
+            border: 1px solid var(--border-color);
+            border-radius: var(--border-radius);
+            font-size: 1rem;
+        }
+
+        .newsletter-form input:focus {
+            outline: none;
+            border-color: var(--primary-color);
+        }
+
+        .newsletter-section {
+            padding: 80px 0;
+            background: var(--primary-color);
+            text-align: center;
+        }
+
+        .newsletter-section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: var(--dark-color);
+        }
+
+        .newsletter-section p {
+            font-size: 1.2rem;
+            margin-bottom: 40px;
+            color: var(--dark-color);
+        }
+
+        .newsletter-form-main {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        .newsletter-form-main .form-group {
+            display: flex;
+            gap: 10px;
+        }
+
+        .newsletter-form-main input {
+            flex: 1;
+            padding: 15px 20px;
+            border: 2px solid transparent;
+            border-radius: 25px;
+            font-size: 1rem;
+            background: white;
+        }
+
+        .newsletter-form-main input:focus {
+            outline: none;
+            border-color: var(--dark-color);
+        }
+
+        .newsletter-form-main button {
+            border-radius: 25px;
+            padding: 15px 30px;
+            background: var(--dark-color);
+            color: white;
+            border: 2px solid var(--dark-color);
+        }
+
+        .newsletter-form-main button:hover {
+            background: white;
+            color: var(--dark-color);
+        }
+
+        @media (max-width: 768px) {
+            .blog-grid {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+
+            .blog-post.featured {
+                grid-column: 1;
+                grid-template-columns: 1fr;
+            }
+
+            .blog-post.featured .post-image {
+                height: 200px;
+            }
+
+            .blog-sidebar {
+                padding-left: 0;
+            }
+
+            .newsletter-form-main .form-group {
+                flex-direction: column;
+            }
+
+            .post-meta {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+    </style>
+</body>
+</html>
